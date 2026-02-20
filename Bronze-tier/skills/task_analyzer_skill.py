@@ -2,6 +2,9 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
 import re
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from bronze_logger import BronzeLogger
 
 
 class TaskAnalyzerSkill:
@@ -15,6 +18,7 @@ class TaskAnalyzerSkill:
             "low": 2,
             "normal": 3
         }
+        self.logger = BronzeLogger.get_logger("TaskAnalyzerSkill")
 
     def analyze(self, task_content: str, source_file: Path) -> Dict:
         """
@@ -27,7 +31,12 @@ class TaskAnalyzerSkill:
         Returns:
             Structured task dictionary
         """
-        return {
+        BronzeLogger.log_skill_execution(
+            self.logger, "TaskAnalyzerSkill", f"analyze({source_file.name})",
+            "IN_PROGRESS", "Extracting task metadata"
+        )
+
+        result = {
             "title": self._extract_title(task_content),
             "description": self._extract_description(task_content),
             "priority": self._extract_priority(task_content),
@@ -38,6 +47,13 @@ class TaskAnalyzerSkill:
             "analyzed_at": datetime.now().isoformat(),
             "raw_content": task_content
         }
+
+        BronzeLogger.log_skill_execution(
+            self.logger, "TaskAnalyzerSkill", f"analyze({source_file.name})",
+            "SUCCESS", f"Extracted: priority={result['priority']}, complexity={result['complexity']}, actions={len(result['action_items'])}"
+        )
+
+        return result
 
     def _extract_title(self, content: str) -> str:
         """Extract title from markdown (first # heading or first line)"""

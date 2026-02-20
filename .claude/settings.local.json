@@ -3,7 +3,12 @@
     "allow": [
       "Bash(python:*)",
       "Bash(dir /S /B)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(pip install watchdog)",
+      "Bash(wc:*)",
+      "Bash(git add:*)"
     ]
   }
 }

@@ -1,7 +1,10 @@
 from pathlib import Path
 from datetime import datetime
 from typing import Dict
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from config import Config
+from bronze_logger import BronzeLogger
 
 
 class VaultWriterSkill:
@@ -10,6 +13,7 @@ class VaultWriterSkill:
     def __init__(self):
         self.needs_action = Config.NEEDS_ACTION
         self.done = Config.DONE
+        self.logger = BronzeLogger.get_logger("VaultWriterSkill")
 
     def write_to_needs_action(self, task_data: Dict) -> Path:
         """
@@ -21,11 +25,28 @@ class VaultWriterSkill:
         Returns:
             Path to created file
         """
+        BronzeLogger.log_skill_execution(
+            self.logger, "VaultWriterSkill", f"write_to_needs_action({task_data['title']})",
+            "IN_PROGRESS", "Writing analyzed task"
+        )
+
         filename = self._generate_filename(task_data["title"])
         filepath = self.needs_action / filename
 
         content = self._format_task(task_data)
         filepath.write_text(content, encoding="utf-8")
+
+        BronzeLogger.log_task_action(
+            self.logger, "CREATE", filename, "VaultWriterSkill",
+            "SUCCESS", "Written to Needs_Action"
+        )
+        BronzeLogger.log_lifecycle_event(
+            self.logger, filename, "Inbox", "Needs_Action", "SUCCESS"
+        )
+        BronzeLogger.log_skill_execution(
+            self.logger, "VaultWriterSkill", f"write_to_needs_action({task_data['title']})",
+            "SUCCESS", f"Created {filename}"
+        )
 
         return filepath
 
@@ -39,11 +60,28 @@ class VaultWriterSkill:
         Returns:
             Path to created file
         """
+        BronzeLogger.log_skill_execution(
+            self.logger, "VaultWriterSkill", f"write_to_done({task_data['title']})",
+            "IN_PROGRESS", "Writing completed task"
+        )
+
         filename = self._generate_filename(task_data["title"])
         filepath = self.done / filename
 
         content = self._format_task(task_data, completed=True)
         filepath.write_text(content, encoding="utf-8")
+
+        BronzeLogger.log_task_action(
+            self.logger, "CREATE", filename, "VaultWriterSkill",
+            "SUCCESS", "Written to Done"
+        )
+        BronzeLogger.log_lifecycle_event(
+            self.logger, filename, "Needs_Action", "Done", "SUCCESS"
+        )
+        BronzeLogger.log_skill_execution(
+            self.logger, "VaultWriterSkill", f"write_to_done({task_data['title']})",
+            "SUCCESS", f"Created {filename}"
+        )
 
         return filepath
 
