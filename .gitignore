@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credentials and Sensitive Data
+Bronze-tier/credentials/*.json
+Bronze-tier/credentials/*.txt
+!Bronze-tier/credentials/README.md
+client_secret_*.json
+*_credentials.json
+
+# Session Files
+*_session.json
+*_token.json
+
+# Logs (optional - uncomment to exclude logs from git)
+# Bronze-tier/logs/*.log
+# Bronze-tier/*.log
+
+# Processed IDs tracking
+Bronze-tier/logs/*_processed.txt
+
+# Runtime folders - ignore all content but keep folder structure
+Bronze-tier/Vault/Inbox/*
+!Bronze-tier/Vault/Inbox/.gitkeep
+Bronze-tier/Vault/Needs_Action/*
+!Bronze-tier/Vault/Needs_Action/.gitkeep
+Bronze-tier/Vault/Done/*
+!Bronze-tier/Vault/Done/.gitkeep
+
+# Log files
+Bronze-tier/logs/*.log
+Bronze-tier/logs/*.txt
+Bronze-tier/logs/*.json
+Bronze-tier/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
