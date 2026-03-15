@@ -9,7 +9,9 @@ class VaultManager:
     """Manages Vault structure initialization and operations"""
 
     def __init__(self):
+        # self.logger = BronzeLogger.get_logger("VaultManager", Config.VAULT_LOG)
         self.logger = BronzeLogger.get_logger("VaultManager", Config.VAULT_LOG)
+        self.vault_root = Path(Config.VAULT_ROOT)
 
     @staticmethod
     def initialize():

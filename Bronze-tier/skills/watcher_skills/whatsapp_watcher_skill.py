@@ -12,6 +12,7 @@ class WhatsAppWatcherSkill(BaseWatcherSkill):
 
     def __init__(self):
         super().__init__("WhatsApp")
+        self.playwright = None
         self.browser = None
         self.context = None
         self.page = None
@@ -19,7 +20,7 @@ class WhatsAppWatcherSkill(BaseWatcherSkill):
 
     def authenticate(self) -> bool:
         """
-        Authenticate with WhatsApp Web using Playwright
+        Authenticate with WhatsApp Web using Playwright Sync API
 
         Returns:
             True if authentication successful, False otherwise
@@ -32,8 +33,8 @@ class WhatsAppWatcherSkill(BaseWatcherSkill):
                 "IN_PROGRESS", "Launching browser for WhatsApp Web"
             )
 
-            playwright = sync_playwright().start()
-            self.browser = playwright.chromium.launch(headless=False)
+            self.playwright = sync_playwright().start()
+            self.browser = self.playwright.chromium.launch(headless=False)
 
             # Load existing session if available
             if self.session_file.exists():
@@ -44,42 +45,122 @@ class WhatsAppWatcherSkill(BaseWatcherSkill):
                 self.context = self.browser.new_context()
 
             self.page = self.context.new_page()
-            self.page.goto("https://web.whatsapp.com/")
+
+            # Navigate and wait for page to be fully loaded
+            self.page.goto("https://web.whatsapp.com/", wait_until="domcontentloaded")
+            self.page.wait_for_timeout(3000)
+
+            # Define selectors for chat list (used throughout)
+            chat_list_selectors = [
+                '[data-testid="chat-list"]',
+                '#pane-side',
+                '[aria-label="Chat list"]',
+                'div[role="grid"]',
+                '#side',
+                'div[data-testid="chat-list"]',
+                'div[class*="chat-list"]',
+                'div[class*="pane-side"]'
+            ]
 
             # Wait for either QR code or chat list
             try:
                 # Check if already logged in (chat list appears)
-                self.page.wait_for_selector('[data-testid="chat-list"]', timeout=10000)
+                chat_list_found = False
+                for selector in chat_list_selectors:
+                    try:
+                        self.page.wait_for_selector(selector, timeout=5000, state="visible")
+                        chat_list_found = True
+                        BronzeLogger.log_skill_execution(
+                            self.logger, "WhatsAppWatcherSkill", "authenticate",
+                            "IN_PROGRESS", f"Found chat list with: {selector}"
+                        )
+                        break
+                    except:
+                        continue
 
-                # Save session
-                self.session_file.parent.mkdir(exist_ok=True)
-                self.context.storage_state(path=str(self.session_file))
+                if chat_list_found:
+                    # Save/update session
+                    self.session_file.parent.mkdir(exist_ok=True)
+                    self.context.storage_state(path=str(self.session_file))
 
-                BronzeLogger.log_skill_execution(
-                    self.logger, "WhatsAppWatcherSkill", "authenticate",
-                    "SUCCESS", "WhatsApp Web authenticated (existing session)"
-                )
-                return True
+                    BronzeLogger.log_skill_execution(
+                        self.logger, "WhatsAppWatcherSkill", "authenticate",
+                        "SUCCESS", "WhatsApp Web authenticated (existing session)"
+                    )
+                    return True
+                else:
+                    # Chat list not found, need QR scan
+                    raise Exception("Chat list not found, QR scan required")
 
             except:
                 # Need to scan QR code
                 BronzeLogger.log_skill_execution(
                     self.logger, "WhatsAppWatcherSkill", "authenticate",
-                    "IN_PROGRESS", "Please scan QR code in browser"
+                    "IN_PROGRESS", "Please scan QR code in browser (you have 3 minutes)"
                 )
 
-                # Wait for QR code scan (chat list appears after successful scan)
-                self.page.wait_for_selector('[data-testid="chat-list"]', timeout=120000)
+                # Wait for QR code scan with multiple selector fallbacks
+                chat_list_found = False
+                selectors = [
+                    '[data-testid="chat-list"]',
+                    '#pane-side',
+                    '[aria-label="Chat list"]',
+                    'div[role="grid"]',
+                    '#side',
+                    'div[data-testid="chat-list"]',
+                    'div[class*="chat-list"]',
+                    'div[class*="pane-side"]'
+                ]
 
-                # Save session
-                self.session_file.parent.mkdir(exist_ok=True)
-                self.context.storage_state(path=str(self.session_file))
+                for selector in selectors:
+                    try:
+                        BronzeLogger.log_skill_execution(
+                            self.logger, "WhatsAppWatcherSkill", "authenticate",
+                            "IN_PROGRESS", f"Trying selector: {selector}"
+                        )
+                        self.page.wait_for_selector(selector, timeout=30000, state="visible")
+                        chat_list_found = True
+                        BronzeLogger.log_skill_execution(
+                            self.logger, "WhatsAppWatcherSkill", "authenticate",
+                            "IN_PROGRESS", f"Found chat list using: {selector}"
+                        )
+                        break
+                    except:
+                        continue
 
+                if not chat_list_found:
+                    BronzeLogger.log_skill_execution(
+                        self.logger, "WhatsAppWatcherSkill", "authenticate",
+                        "FAILED", "Could not find chat list with any selector"
+                    )
+                    return False
+
+                # Give extra time for page to fully stabilize after login
                 BronzeLogger.log_skill_execution(
                     self.logger, "WhatsAppWatcherSkill", "authenticate",
-                    "SUCCESS", "WhatsApp Web authenticated (new session)"
+                    "IN_PROGRESS", "Login detected, waiting for page to stabilize..."
                 )
-                return True
+                self.page.wait_for_timeout(5000)
+
+                # Verify chat list is still present with any selector
+                chat_list_verified = False
+                for selector in selectors:
+                    if self.page.query_selector(selector):
+                        chat_list_verified = True
+                        break
+
+                if chat_list_verified:
+                    # Save session
+                    self.session_file.parent.mkdir(exist_ok=True)
+                    self.context.storage_state(path=str(self.session_file))
+
+                    BronzeLogger.log_skill_execution(
+                        self.logger, "WhatsAppWatcherSkill", "authenticate",
+                        "SUCCESS", "WhatsApp Web authenticated (new session saved)"
+                    )
+                    return True
+                else:
+                    raise Exception("Chat list disappeared after initial detection")
 
         except ImportError as e:
             BronzeLogger.log_skill_execution(
@@ -111,8 +192,38 @@ class WhatsAppWatcherSkill(BaseWatcherSkill):
                 return 0
 
         try:
-            # Wait for chat list to load
-            self.page.wait_for_selector('[data-testid="chat-list"]', timeout=10000)
+            # Wait for chat list to load with multiple selector fallbacks
+            chat_list_selectors = [
+                '[data-testid="chat-list"]',
+                '#pane-side',
+                '[aria-label="Chat list"]',
+                'div[role="grid"]',
+                '#side',
+                'div[data-testid="chat-list"]',
+                'div[class*="chat-list"]',
+                'div[class*="pane-side"]'
+            ]
+
+            chat_list_found = False
+            for selector in chat_list_selectors:
+                try:
+                    self.page.wait_for_selector(selector, timeout=5000, state="visible")
+                    chat_list_found = True
+                    BronzeLogger.log_skill_execution(
+                        self.logger, "WhatsAppWatcherSkill", "watch",
+                        "IN_PROGRESS", f"Chat list found with: {selector}"
+                    )
+                    break
+                except:
+                    continue
+
+            if not chat_list_found:
+                BronzeLogger.log_skill_execution(
+                    self.logger, "WhatsAppWatcherSkill", "watch",
+                    "FAILED", "Could not find chat list with any selector"
+                )
+                return 0
+
             self.page.wait_for_timeout(2000)
 
             # Get unread chats (chats with unread badge)
@@ -222,3 +333,5 @@ class WhatsAppWatcherSkill(BaseWatcherSkill):
                 self.logger, "WhatsAppWatcherSkill", "close",
                 "SUCCESS", "Browser closed"
             )
+        if self.playwright:
+            self.playwright.stop()

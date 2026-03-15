@@ -50,6 +50,20 @@ client_secret_*.json
 # Processed IDs tracking
 Bronze-tier/logs/*_processed.txt
 
+# Runtime folders - ignore all content but keep folder structure
+Bronze-tier/Vault/Inbox/*
+!Bronze-tier/Vault/Inbox/.gitkeep
+Bronze-tier/Vault/Needs_Action/*
+!Bronze-tier/Vault/Needs_Action/.gitkeep
+Bronze-tier/Vault/Done/*
+!Bronze-tier/Vault/Done/.gitkeep
+
+# Log files
+Bronze-tier/logs/*.log
+Bronze-tier/logs/*.txt
+Bronze-tier/logs/*.json
+Bronze-tier/*.log
+
 # OS
 .DS_Store
 Thumbs.db
