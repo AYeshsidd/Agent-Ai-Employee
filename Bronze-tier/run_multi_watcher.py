@@ -8,7 +8,13 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from vault_manager import VaultManager
 from bronze_logger import BronzeLogger
-from skills.watcher_skills import GmailWatcherSkill, LinkedInWatcherSkill, WhatsAppWatcherSkill
+from skills.watcher_skills import (
+    GmailWatcherSkill, 
+    LinkedInWatcherSkill, 
+    WhatsAppWatcherSkill,
+    TwitterWatcherSkill,
+    FacebookWatcherSkill
+)
 
 
 class MultiChannelWatcher:
@@ -19,7 +25,14 @@ class MultiChannelWatcher:
         self.watchers = {}
         self.running = True
 
-    def initialize_watchers(self, enable_gmail=True, enable_linkedin=True, enable_whatsapp=True):
+    def initialize_watchers(
+        self, 
+        enable_gmail=True, 
+        enable_linkedin=True, 
+        enable_whatsapp=True,
+        enable_twitter=True,
+        enable_facebook=True
+    ):
         """
         Initialize selected watchers
 
@@ -27,6 +40,8 @@ class MultiChannelWatcher:
             enable_gmail: Enable Gmail watcher
             enable_linkedin: Enable LinkedIn watcher
             enable_whatsapp: Enable WhatsApp watcher
+            enable_twitter: Enable Twitter watcher
+            enable_facebook: Enable Facebook watcher
         """
         BronzeLogger.log_skill_execution(
             self.logger, "MultiChannelWatcher", "initialize_watchers",
@@ -53,6 +68,20 @@ class MultiChannelWatcher:
                 print("[OK] WhatsApp watcher initialized")
             except Exception as e:
                 print(f"[WARN] WhatsApp watcher failed to initialize: {str(e)}")
+
+        if enable_twitter:
+            try:
+                self.watchers['twitter'] = TwitterWatcherSkill()
+                print("[OK] Twitter watcher initialized")
+            except Exception as e:
+                print(f"[WARN] Twitter watcher failed to initialize: {str(e)}")
+
+        if enable_facebook:
+            try:
+                self.watchers['facebook'] = FacebookWatcherSkill()
+                print("[OK] Facebook watcher initialized")
+            except Exception as e:
+                print(f"[WARN] Facebook watcher failed to initialize: {str(e)}")
 
         BronzeLogger.log_skill_execution(
             self.logger, "MultiChannelWatcher", "initialize_watchers",
