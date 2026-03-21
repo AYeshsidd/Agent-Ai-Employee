@@ -82,7 +82,7 @@ class SocialModule(MCPModule):
                 "handler": self._post_to_twitter,
                 "schema": {
                     "name": "post_to_twitter",
-                    "description": "Post a tweet to Twitter/X (requires browser)",
+                    "description": "Post a tweet to Twitter/X (max 280 characters)",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -103,7 +103,7 @@ class SocialModule(MCPModule):
                 "handler": self._post_to_facebook,
                 "schema": {
                     "name": "post_to_facebook",
-                    "description": "Post content to Facebook (requires browser)",
+                    "description": "Post content to Facebook",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -117,6 +117,40 @@ class SocialModule(MCPModule):
                             }
                         },
                         "required": ["content", "post_id"]
+                    }
+                }
+            },
+            "auto_post_twitter_from_vault": {
+                "handler": self._auto_post_twitter_from_vault,
+                "schema": {
+                    "name": "auto_post_twitter_from_vault",
+                    "description": "Auto-post a Vault task to Twitter",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "task_filename": {
+                                "type": "string",
+                                "description": "Task filename in Vault/Needs_Action"
+                            }
+                        },
+                        "required": ["task_filename"]
+                    }
+                }
+            },
+            "auto_post_facebook_from_vault": {
+                "handler": self._auto_post_facebook_from_vault,
+                "schema": {
+                    "name": "auto_post_facebook_from_vault",
+                    "description": "Auto-post a Vault task to Facebook",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "task_filename": {
+                                "type": "string",
+                                "description": "Task filename in Vault/Needs_Action"
+                            }
+                        },
+                        "required": ["task_filename"]
                     }
                 }
             },
@@ -515,6 +549,82 @@ class SocialModule(MCPModule):
             return {
                 "status": "failed",
                 "message": f"Summary generation failed: {str(e)}"
+            }
+
+    def _auto_post_twitter_from_vault(self, params: Dict[str, str]) -> Dict[str, Any]:
+        """Auto-post a Vault task to Twitter"""
+        task_filename = params.get("task_filename", "")
+
+        try:
+            from skills.twitter_auto_post_skill import TwitterAutoPostSkill
+            from config import Config
+            
+            skill = TwitterAutoPostSkill()
+            
+            # Find task in Needs_Action folder
+            task_path = Config.NEEDS_ACTION / task_filename
+            
+            if not task_path.exists():
+                return {
+                    "status": "failed",
+                    "message": f"Task not found: {task_filename}"
+                }
+            
+            success = skill.post_from_vault_task(task_path)
+            
+            if success:
+                return {
+                    "status": "success",
+                    "message": f"Posted {task_filename} to Twitter"
+                }
+            else:
+                return {
+                    "status": "failed",
+                    "message": f"Failed to post {task_filename} to Twitter"
+                }
+                
+        except Exception as e:
+            return {
+                "status": "failed",
+                "message": f"Twitter auto-post failed: {str(e)}"
+            }
+
+    def _auto_post_facebook_from_vault(self, params: Dict[str, str]) -> Dict[str, Any]:
+        """Auto-post a Vault task to Facebook"""
+        task_filename = params.get("task_filename", "")
+
+        try:
+            from skills.facebook_auto_post_skill import FacebookAutoPostSkill
+            from config import Config
+            
+            skill = FacebookAutoPostSkill()
+            
+            # Find task in Needs_Action folder
+            task_path = Config.NEEDS_ACTION / task_filename
+            
+            if not task_path.exists():
+                return {
+                    "status": "failed",
+                    "message": f"Task not found: {task_filename}"
+                }
+            
+            success = skill.post_from_vault_task(task_path)
+            
+            if success:
+                return {
+                    "status": "success",
+                    "message": f"Posted {task_filename} to Facebook"
+                }
+            else:
+                return {
+                    "status": "failed",
+                    "message": f"Failed to post {task_filename} to Facebook"
+                }
+                
+        except Exception as e:
+            return {
+                "status": "failed",
+                "message": f"Facebook auto-post failed: {str(e)}"
             }
 
     def cleanup(self):
