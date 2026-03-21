@@ -43,6 +43,11 @@ client_secret_*.json
 *_session.json
 *_token.json
 
+# Browser Profiles (Twitter/X, etc.)
+Bronze-tier/credentials/twitter_profile/
+Bronze-tier/credentials/facebook_profile/
+Bronze-tier/credentials/linkedin_profile/
+
 # Logs (optional - uncomment to exclude logs from git)
 # Bronze-tier/logs/*.log
 # Bronze-tier/*.log
@@ -51,11 +56,11 @@ client_secret_*.json
 Bronze-tier/logs/*_processed.txt
 
 # Runtime folders - ignore all content but keep folder structure
-Bronze-tier/Vault/Inbox/*
+# Bronze-tier/Vault/Inbox/*
 !Bronze-tier/Vault/Inbox/.gitkeep
-Bronze-tier/Vault/Needs_Action/*
-!Bronze-tier/Vault/Needs_Action/.gitkeep
-Bronze-tier/Vault/Done/*
+# Bronze-tier/Vault/Needs_Action/*
+# !Bronze-tier/Vault/Needs_Action/.gitkeep
+# Bronze-tier/Vault/Done/*
 !Bronze-tier/Vault/Done/.gitkeep
 
 # Log files
