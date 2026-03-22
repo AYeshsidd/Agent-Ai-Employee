@@ -140,8 +140,8 @@ def test_send_email():
         print("[INFO] That's expected - we're testing the validation logic\n")
 
         result = server.call_tool("send_email", {
-            "to": "test@example.com",
-            "subject": "Test Email from MCP Server",
+            "to": "aaish28siddiqui@gmail.com",
+            "subject": "Final Test Email from MCP Server",
             "body": "This is a test email sent via MCP Server"
         })
 
