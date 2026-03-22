@@ -34,3 +34,1105 @@
 2026-02-22 05:09:56 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260222_050956_Gmail_Test_Email_from_Silver_Tier.md
 2026-02-22 05:09:56 - VaultManager - INFO - [STATS] Task: vault | Source: VaultManager | Status: SUCCESS | Details: Total: 9 (Inbox: 1, Needs_Action: 6, Done: 2)
 2026-02-22 05:09:56 - SilverTierTest - INFO - [SKILL] TestSkill | Operation: test_operation | Status: SUCCESS | Details: Test log entry
+2026-03-20 04:19:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 04:19:55 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 04:19:55 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 04:19:55 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 04:19:55 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 04:19:55 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 04:19:55 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 04:19:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 04:19:55 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 04:19:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-20 04:19:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:19:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 04:20:21 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 04:20:21 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 04:20:21 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 04:20:21 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 04:20:21 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 04:20:21 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 04:20:21 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 04:20:21 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:20:21 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_notification: Missing required parameters: message
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 04:20:21 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_email: Missing required parameters: body
+2026-03-20 04:20:21 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 04:20:31 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_email: Email sent successfully (ID: 19d08668d9392ccd)
+2026-03-20 04:20:31 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:20:31 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: JSON Test
+2026-03-20 04:20:31 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: unknown_tool
+2026-03-20 04:20:31 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: Unknown tool: unknown_tool
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 04:20:59 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 04:20:59 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 04:20:59 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 04:20:59 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 04:20:59 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 04:20:59 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 04:20:59 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 04:20:59 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:20:59 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_notification: Missing required parameters: message
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 04:20:59 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_email: Missing required parameters: body
+2026-03-20 04:20:59 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 04:21:01 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_email: Email sent successfully (ID: 19d086703d82dea2)
+2026-03-20 04:21:01 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:21:01 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: JSON Test
+2026-03-20 04:21:01 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: unknown_tool
+2026-03-20 04:21:01 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: Unknown tool: unknown_tool
+2026-03-20 04:42:50 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 43 processed IDs
+2026-03-20 04:42:52 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Gmail API authenticated
+2026-03-20 04:42:52 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Gmail inbox
+2026-03-20 04:42:53 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Delivery Status Notification (Failure)...
+2026-03-20 04:42:53 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044253_Gmail_Email__Delivery_Status_Notification__Failure_.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:53 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044253_Gmail_Email__Delivery_Status_Notification__Failure_.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:53 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044253_Gmail_Email__Delivery_Status_Notification__Failure_.md
+2026-03-20 04:42:53 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044253_Gmail_Email__I_d_like_to_connect__.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:53 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044253_Gmail_Email__I_d_like_to_connect__.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:53 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044253_Gmail_Email__I_d_like_to_connect__.md
+2026-03-20 04:42:54 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Sumiyya accepted your invitation, explore t...
+2026-03-20 04:42:54 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044254_Gmail_Email__Sumiyya_accepted_your_invitation__explore_t.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:54 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044254_Gmail_Email__Sumiyya_accepted_your_invitation__explore_t.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:54 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044254_Gmail_Email__Sumiyya_accepted_your_invitation__explore_t.md
+2026-03-20 04:42:54 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Make Every Eid Meal Special – Save Up to 40...
+2026-03-20 04:42:54 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044254_Gmail_Email__Make_Every_Eid_Meal_Special___Save_Up_to_40.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:54 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044254_Gmail_Email__Make_Every_Eid_Meal_Special___Save_Up_to_40.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:54 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044254_Gmail_Email__Make_Every_Eid_Meal_Special___Save_Up_to_40.md
+2026-03-20 04:42:54 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Your path to AI fluency: AI for research an...
+2026-03-20 04:42:54 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044254_Gmail_Email__Your_path_to_AI_fluency__AI_for_research_an.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:54 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044254_Gmail_Email__Your_path_to_AI_fluency__AI_for_research_an.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:54 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044254_Gmail_Email__Your_path_to_AI_fluency__AI_for_research_an.md
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: We’re updating our Terms of Service...
+2026-03-20 04:42:55 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044255_Gmail_Email__We_re_updating_our_Terms_of_Service.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:55 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044255_Gmail_Email__We_re_updating_our_Terms_of_Service.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044255_Gmail_Email__We_re_updating_our_Terms_of_Service.md
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Shakeela accepted your invitation, explore ...
+2026-03-20 04:42:55 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044255_Gmail_Email__Shakeela_accepted_your_invitation__explore_.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:55 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044255_Gmail_Email__Shakeela_accepted_your_invitation__explore_.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044255_Gmail_Email__Shakeela_accepted_your_invitation__explore_.md
+2026-03-20 04:42:55 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044255_Gmail_Email__I_d_like_to_connect__.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:55 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044255_Gmail_Email__I_d_like_to_connect__.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044255_Gmail_Email__I_d_like_to_connect__.md
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Sweet Eid Deals | Enjoy up to 30% off at To...
+2026-03-20 04:42:55 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044255_Gmail_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:55 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044255_Gmail_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:55 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044255_Gmail_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md
+2026-03-20 04:42:56 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_044256_Gmail_Email__I_d_like_to_connect__.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 04:42:56 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_044256_Gmail_Email__I_d_like_to_connect__.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 04:42:56 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_044256_Gmail_Email__I_d_like_to_connect__.md
+2026-03-20 04:42:56 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 10 tasks from 10 unread emails
+2026-03-20 04:56:28 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 04:56:28 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 04:56:28 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 04:56:28 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 04:56:28 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 04:56:28 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 04:56:28 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 04:56:28 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 04:56:28 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 04:56:28 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-20 04:56:28 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:56:28 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 04:59:58 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 04:59:58 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 04:59:58 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 04:59:58 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 04:59:58 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 04:59:58 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 04:59:58 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 04:59:58 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 04:59:58 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_notification: Missing required parameters: message
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 04:59:58 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_email: Missing required parameters: body
+2026-03-20 04:59:58 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 05:00:00 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_email: Email sent successfully (ID: 19d088ab244f8a58)
+2026-03-20 05:00:00 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 05:00:00 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: JSON Test
+2026-03-20 05:00:00 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: unknown_tool
+2026-03-20 05:00:00 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: Unknown tool: unknown_tool
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 05:01:52 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 05:01:52 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 05:01:52 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 05:01:52 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 05:01:52 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 05:01:52 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 05:01:52 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 05:01:52 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 05:01:52 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_notification: Missing required parameters: message
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 05:01:52 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: send_email: Missing required parameters: body
+2026-03-20 05:01:52 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_email
+2026-03-20 05:01:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_email: Email sent successfully (ID: 19d088c71000adb9)
+2026-03-20 05:01:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-20 05:01:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: JSON Test
+2026-03-20 05:01:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: unknown_tool
+2026-03-20 05:01:55 - MCPServer - ERROR - [SKILL] MCPServer | Operation: call_tool | Status: FAILED | Details: Unknown tool: unknown_tool
+2026-03-20 05:03:38 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 53 processed IDs
+2026-03-20 05:03:39 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Gmail API authenticated
+2026-03-20 05:03:39 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Gmail inbox
+2026-03-20 05:03:40 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Limited-time 80,000 USDT welcome-back gold ...
+2026-03-20 05:03:40 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260320_050340_Gmail_Email__Limited_time_80_000_USDT_welcome_back_gold_.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-20 05:03:40 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260320_050340_Gmail_Email__Limited_time_80_000_USDT_welcome_back_gold_.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-20 05:03:40 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260320_050340_Gmail_Email__Limited_time_80_000_USDT_welcome_back_gold_.md
+2026-03-20 05:03:40 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 1 tasks from 10 unread emails
+2026-03-20 05:09:24 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-20 05:09:24 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-20 05:09:24 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-20 05:09:24 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-20 05:09:24 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 3 tools
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 3 tools
+2026-03-20 05:09:24 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-20 05:09:24 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-20 05:09:24 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-20 05:09:24 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-20 05:09:24 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 00:22:55 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 00:22:55 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 9 tools
+2026-03-22 00:22:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 00:22:55 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 00:22:55 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 00:22:55 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 00:22:55 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 9 tools
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 9 tools
+2026-03-22 00:22:55 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 00:22:55 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 00:22:55 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 00:22:55 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 00:22:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 00:22:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-22 00:22:55 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Backward Compatibility Test
+2026-03-22 00:30:22 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 00:30:22 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter
+2026-03-22 00:30:43 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 00:31:01 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter DM: Unknown...
+2026-03-22 00:31:01 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_003101_Twitter_Twitter_DM__Unknown.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 00:31:01 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_003101_Twitter_Twitter_DM__Unknown.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 00:31:01 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_003101_Twitter_Twitter_DM__Unknown.md
+2026-03-22 00:31:01 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 1 tasks from Twitter
+2026-03-22 00:31:01 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 00:36:09 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 1 processed IDs
+2026-03-22 00:36:09 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 00:36:09 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter
+2026-03-22 00:36:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 00:36:49 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter DM: Unknown...
+2026-03-22 00:36:49 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_003649_Twitter_Twitter_DM__Unknown.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 00:36:49 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_003649_Twitter_Twitter_DM__Unknown.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 00:36:49 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_003649_Twitter_Twitter_DM__Unknown.md
+2026-03-22 00:36:49 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 1 tasks from Twitter
+2026-03-22 00:36:49 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 00:38:43 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Facebook notifications and messages
+2026-03-22 00:38:43 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 00:38:54 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required - please login in browser
+2026-03-22 00:40:54 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Facebook authenticated (new session)
+2026-03-22 00:41:42 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Facebook
+2026-03-22 00:41:43 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 00:41:56 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Facebook notifications and messages
+2026-03-22 00:41:56 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 00:42:12 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required - please login in browser
+2026-03-22 00:44:12 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Facebook authenticated (new session)
+2026-03-22 00:44:29 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Facebook
+2026-03-22 00:44:29 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 00:53:24 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:11:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:11:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:11:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter
+2026-03-22 01:11:28 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Creating new browser context for fresh login
+2026-03-22 01:11:28 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter login page
+2026-03-22 01:11:35 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (up to 3 minutes)
+2026-03-22 01:14:38 - TwitterWatcher - ERROR - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: FAILED | Details: Login timeout - user did not complete login
+2026-03-22 01:14:38 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 01:15:26 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:15:26 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:15:26 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter
+2026-03-22 01:15:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Creating new browser context for fresh login
+2026-03-22 01:15:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter login page
+2026-03-22 01:15:34 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (up to 3 minutes)
+2026-03-22 01:17:48 - TwitterWatcher - ERROR - [SKILL] TwitterWatcherSkill | Operation: close | Status: FAILED | Details: Error closing browser: Browser.close: Connection closed while reading from the driver
+2026-03-22 01:17:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:17:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:17:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter
+2026-03-22 01:17:55 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Creating new browser context for fresh login
+2026-03-22 01:17:55 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter login page
+2026-03-22 01:18:05 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (up to 3 minutes)
+2026-03-22 01:21:08 - TwitterWatcher - ERROR - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: FAILED | Details: Login timeout - user did not complete login
+2026-03-22 01:21:09 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 01:24:18 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:26:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:26:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:26:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:26:55 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X
+2026-03-22 01:27:11 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Already logged in (persistent profile)
+2026-03-22 01:27:25 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Twitter
+2026-03-22 01:27:25 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser cleanup complete (profile saved)
+2026-03-22 01:36:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:36:45 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:36:46 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X
+2026-03-22 01:36:53 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Already logged in (persistent profile)
+2026-03-22 01:36:57 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser cleanup complete (profile saved)
+2026-03-22 01:37:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:37:45 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:37:46 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X
+2026-03-22 01:37:53 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Already logged in (persistent profile)
+2026-03-22 01:37:59 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser cleanup complete (profile saved)
+2026-03-22 01:39:20 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 2 processed IDs
+2026-03-22 01:39:20 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:39:20 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:39:21 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X
+2026-03-22 01:39:28 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Already logged in (persistent profile)
+2026-03-22 01:39:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter DM...
+2026-03-22 01:39:42 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_013942_Twitter_Twitter_DM.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:39:42 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_013942_Twitter_Twitter_DM.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:39:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_013942_Twitter_Twitter_DM.md
+2026-03-22 01:39:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 1 tasks from Twitter
+2026-03-22 01:39:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser cleanup complete (profile saved)
+2026-03-22 01:43:46 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 3 processed IDs
+2026-03-22 01:43:46 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:43:46 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:43:47 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X
+2026-03-22 01:43:54 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Already logged in (persistent profile)
+2026-03-22 01:44:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter DM...
+2026-03-22 01:44:08 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_014408_Twitter_Twitter_DM.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:44:08 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_014408_Twitter_Twitter_DM.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:44:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_014408_Twitter_Twitter_DM.md
+2026-03-22 01:44:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 1 tasks from Twitter
+2026-03-22 01:44:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser cleanup complete (profile saved)
+2026-03-22 01:49:06 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 4 processed IDs
+2026-03-22 01:49:29 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 4 processed IDs
+2026-03-22 01:49:29 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:49:30 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:49:31 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X login
+2026-03-22 01:50:09 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (browser stays open)
+2026-03-22 01:54:21 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 4 processed IDs
+2026-03-22 01:54:21 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:54:21 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:54:22 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X login
+2026-03-22 01:54:59 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (browser stays open)
+2026-03-22 01:57:29 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed (profile saved)
+2026-03-22 01:57:39 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 4 processed IDs
+2026-03-22 01:57:39 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:57:40 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:57:41 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X login
+2026-03-22 01:58:25 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (browser stays open)
+2026-03-22 01:59:20 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter/X login complete - profile saved
+2026-03-22 01:59:20 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_015927_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_015927_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_015927_Twitter_Twitter_Notification.md
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_015927_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_015927_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_015927_Twitter_Twitter_Notification.md
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_015927_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_015927_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_015927_Twitter_Twitter_Notification.md
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_015927_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_015927_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_015927_Twitter_Twitter_Notification.md
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_015927_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_015927_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 01:59:27 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_015927_Twitter_Twitter_Notification.md
+2026-03-22 01:59:34 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 5 tasks from Twitter
+2026-03-22 01:59:34 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 01:59:37 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed (profile saved)
+2026-03-22 01:59:55 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 01:59:55 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 01:59:55 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 01:59:56 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X login
+2026-03-22 02:00:11 - TwitterWatcher - ERROR - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: FAILED | Details: Login not completed within timeout (browser still open)
+2026-03-22 02:00:13 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed (profile saved)
+2026-03-22 02:00:35 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Waiting for manual login (browser stays open)
+2026-03-22 02:00:50 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed (profile saved)
+2026-03-22 02:01:51 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 02:01:51 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 02:01:51 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 02:01:52 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Navigating to Twitter/X login
+2026-03-22 02:15:03 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 02:15:03 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 02:15:03 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Starting Twitter/X authentication
+2026-03-22 02:15:23 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for manual login
+2026-03-22 02:15:23 - TwitterWatcher - ERROR - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: FAILED | Details: 'NoneType' object has no attribute 'chromium'
+2026-03-22 02:15:23 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 02:17:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 02:17:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 02:17:08 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Starting Twitter/X authentication
+2026-03-22 02:17:16 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Authenticated with saved session
+2026-03-22 02:17:29 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Twitter
+2026-03-22 02:17:29 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 02:17:32 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 02:26:37 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 02:26:37 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 02:26:37 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Starting Twitter/X authentication
+2026-03-22 02:26:47 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Authenticated with saved session
+2026-03-22 02:27:01 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Twitter
+2026-03-22 02:27:01 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 02:27:03 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 02:53:30 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 02:53:30 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 02:53:30 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 02:53:30 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 02:53:30 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 02:53:30 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 02:53:30 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 11 tools
+2026-03-22 02:53:30 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 02:53:30 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 02:53:30 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 02:53:30 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 02:53:30 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 02:53:30 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-22 02:53:30 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Auto-Post Test
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 02:59:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 02:59:46 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_044706_Task_from_working_md.md
+2026-03-22 02:59:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 02:59:46 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_044706_Task_from_working_md)
+2026-03-22 02:59:46 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 03:00:03 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 03:00:33 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://twitter.com/home", waiting until "load"
+
+2026-03-22 03:00:55 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 03:00:55 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260218_014746_Implement_User_Authentication_System.md
+2026-03-22 03:00:55 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 03:00:55 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260218_014746_Implement_User_Authentication_System)
+2026-03-22 03:00:55 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 03:01:26 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: FAILED | Details: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://twitter.com/home", waiting until "load"
+
+2026-03-22 03:01:26 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 03:01:26 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260218_020841_Refactor_Database_Layer.md
+2026-03-22 03:01:26 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 03:01:26 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260218_020841_Refactor_Database_Layer)
+2026-03-22 03:01:58 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 03:01:58 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:01:58 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_032344_Task_from_test_task_txt.md
+2026-03-22 03:01:58 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:01:58 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_032344_Task_from_test_task_txt)
+2026-03-22 03:02:32 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 03:02:32 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:02:32 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_033634_Task_from_test_task_txt.md
+2026-03-22 03:02:32 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:02:32 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_033634_Task_from_test_task_txt)
+2026-03-22 03:03:05 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 03:03:05 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 03:03:05 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_044706_Task_from_README_md.md
+2026-03-22 03:03:05 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 03:03:05 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_044706_Task_from_README_md)
+2026-03-22 03:03:37 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 03:03:37 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 03:03:37 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_044706_Task_from_working_md.md
+2026-03-22 03:03:37 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 03:03:37 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_044706_Task_from_working_md)
+2026-03-22 03:04:10 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 03:04:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 03:04:40 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260218_014746_Implement_User_Authentication_System.md
+2026-03-22 03:04:40 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 03:04:40 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: post_to_facebook | Status: IN_PROGRESS | Details: Posting to Facebook (ID: vault_20260218_014746_Implement_User_Authentication_System)
+2026-03-22 03:04:40 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 03:05:00 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required
+2026-03-22 03:06:31 - FacebookAutoPost - ERROR - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: FAILED | Details: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-03-22 03:11:14 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 03:11:25 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required
+2026-03-22 03:13:28 - FacebookAutoPost - ERROR - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: FAILED | Details: Login verification failed
+2026-03-22 03:14:18 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 03:14:34 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required
+2026-03-22 15:34:32 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 15:34:32 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 15:34:32 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Starting Twitter/X authentication
+2026-03-22 15:34:42 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Authenticated with saved session
+2026-03-22 15:34:56 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Twitter
+2026-03-22 15:34:56 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 15:34:58 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 15:35:29 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Facebook notifications and messages
+2026-03-22 15:35:29 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 15:35:37 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required - please login in browser
+2026-03-22 15:37:37 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Facebook authenticated (new session)
+2026-03-22 15:37:58 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 0 tasks from Facebook
+2026-03-22 15:37:58 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 15:39:08 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 15:39:08 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 15:39:08 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 15:39:08 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 15:39:08 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 15:39:08 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 15:39:08 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 11 tools
+2026-03-22 15:39:08 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 15:39:08 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 15:39:08 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 15:39:08 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 15:39:08 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 15:39:08 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-22 15:39:08 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Auto-Post Test
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:40:03 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:40:09 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260322_Eid_Mubarak_Post.md
+2026-03-22 15:40:09 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:40:09 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: post_to_facebook | Status: IN_PROGRESS | Details: Posting to Facebook (ID: vault_20260322_Eid_Mubarak_Post)
+2026-03-22 15:40:09 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 15:40:23 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required
+2026-03-22 15:42:26 - FacebookAutoPost - ERROR - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: FAILED | Details: Login verification failed
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:42:58 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:43:03 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260322_Eid_Mubarak_Post.md
+2026-03-22 15:43:03 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:43:03 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260322_Eid_Mubarak_Post)
+2026-03-22 15:43:04 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 15:43:30 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 15:44:02 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:54:25 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:54:30 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260322_Eid_Mubarak_Post.md
+2026-03-22 15:54:30 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 15:54:30 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260322_Eid_Mubarak_Post)
+2026-03-22 15:54:30 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 15:54:44 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 15:55:16 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 15:58:22 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 15:58:37 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 15:58:37 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: eid_mubarak_test_2026)
+2026-03-22 15:59:09 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 15:59:09 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 16:07:00 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 16:07:00 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260218_014746_Implement_User_Authentication_System.md
+2026-03-22 16:07:00 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 16:07:00 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260218_014746_Implement_User_Authentication_System)
+2026-03-22 16:07:00 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Twitter/X
+2026-03-22 16:07:13 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: authenticate | Status: SUCCESS | Details: Twitter authenticated (existing session)
+2026-03-22 16:07:45 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 16:07:45 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 16:07:45 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260218_020841_Refactor_Database_Layer.md
+2026-03-22 16:07:45 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 16:07:45 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260218_020841_Refactor_Database_Layer)
+2026-03-22 16:08:16 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+2026-03-22 16:08:16 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:08:16 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_032344_Task_from_test_task_txt.md
+2026-03-22 16:08:16 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:08:16 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_032344_Task_from_test_task_txt)
+2026-03-22 16:08:48 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+2026-03-22 16:08:48 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:08:48 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_033634_Task_from_test_task_txt.md
+2026-03-22 16:08:48 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:08:48 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_033634_Task_from_test_task_txt)
+2026-03-22 16:09:19 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+2026-03-22 16:09:19 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:09:19 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_044706_Task_from_README_md.md
+2026-03-22 16:09:19 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:09:19 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_044706_Task_from_README_md)
+2026-03-22 16:09:51 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+2026-03-22 16:09:51 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:09:51 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260219_044706_Task_from_working_md.md
+2026-03-22 16:09:51 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:09:51 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260219_044706_Task_from_working_md)
+2026-03-22 16:10:22 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+2026-03-22 16:10:22 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:10:22 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260322_Eid_Mubarak_Post.md
+2026-03-22 16:10:22 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:10:22 - TwitterAutoPost - INFO - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: IN_PROGRESS | Details: Posting tweet (ID: vault_20260322_Eid_Mubarak_Post)
+2026-03-22 16:10:53 - TwitterAutoPost - ERROR - [SKILL] TwitterAutoPostSkill | Operation: post_tweet | Status: FAILED | Details: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:17:51 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:17:57 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260218_014746_Implement_User_Authentication_System.md | Source: VaultManager | Status: SUCCESS | Details: Read 1824 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260218_020841_Refactor_Database_Layer.md | Source: VaultManager | Status: SUCCESS | Details: Read 1132 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_032344_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_033634_Task_from_test_task_txt.md | Source: VaultManager | Status: SUCCESS | Details: Read 1272 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:38:35 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:38:38 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 16:49:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:49:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:49:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:49:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:49:23 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 16:49:23 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 16:49:27 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 16:53:05 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 9 processed IDs
+2026-03-22 16:53:05 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 16:53:05 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Starting Twitter/X authentication
+2026-03-22 16:53:12 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Authenticated with saved session
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_165319_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_165319_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_165319_Twitter_Twitter_Notification.md
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_165319_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_165319_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_165319_Twitter_Twitter_Notification.md
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_165319_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_165319_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_165319_Twitter_Twitter_Notification.md
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_165319_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_165319_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_165319_Twitter_Twitter_Notification.md
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_165319_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_165319_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 16:53:19 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_165319_Twitter_Twitter_Notification.md
+2026-03-22 16:53:26 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 5 tasks from Twitter
+2026-03-22 16:53:26 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 16:53:28 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 16:57:19 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:57:19 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 16:57:19 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:57:19 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 16:57:19 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 16:57:19 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:32:53 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 14 processed IDs
+2026-03-22 17:32:53 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Twitter notifications and DMs
+2026-03-22 17:32:53 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Starting Twitter/X authentication
+2026-03-22 17:33:00 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Authenticated with saved session
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_173307_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_173307_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_173307_Twitter_Twitter_Notification.md
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_173307_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_173307_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_173307_Twitter_Twitter_Notification.md
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_173307_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_173307_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_173307_Twitter_Twitter_Notification.md
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Twitter Notification...
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_173307_Twitter_Twitter_Notification.md | Status: SUCCESS | Details: Created from Twitter
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [LIFECYCLE] Task: 20260322_173307_Twitter_Twitter_Notification.md | Transition: Twitter -> Inbox | Status: SUCCESS
+2026-03-22 17:33:07 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_173307_Twitter_Twitter_Notification.md
+2026-03-22 17:33:14 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 4 tasks from Twitter
+2026-03-22 17:33:14 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: _save_session | Status: SUCCESS | Details: Session saved to D:\Autonomus-fte\Bronze-tier\credentials\twitter_session.json
+2026-03-22 17:33:16 - TwitterWatcher - INFO - [SKILL] TwitterWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 17:38:04 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:38:04 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:38:04 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:38:04 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:38:04 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:38:04 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:38:09 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter.md | Source: VaultManager | Status: SUCCESS | Details: Read 684 characters
+2026-03-22 17:46:07 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter.md | Source: VaultManager | Status: SUCCESS | Details: Read 684 characters
+2026-03-22 17:46:11 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter.md | Source: VaultManager | Status: SUCCESS | Details: Read 684 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 684 characters
+2026-03-22 17:46:58 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 684 characters
+2026-03-22 17:54:01 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 684 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 628 characters
+2026-03-22 17:54:32 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 628 characters
+2026-03-22 17:54:48 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 628 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 666 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 616 characters
+2026-03-22 17:57:24 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 616 characters
+2026-03-22 17:57:26 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 616 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 510 characters
+2026-03-22 18:13:55 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 510 characters
+2026-03-22 18:14:00 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 510 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 511 characters
+2026-03-22 18:17:01 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 511 characters
+2026-03-22 18:17:03 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 511 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 531 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:20:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:20:48 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:28:02 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:28:02 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:28:02 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:28:02 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:28:02 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:28:02 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:28:03 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:28:03 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:29:10 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:29:10 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:29:30 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:29:30 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:30:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:30:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:30:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:30:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:30:15 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:30:15 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:30:18 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:32:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:32:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:32:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:32:15 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:32:15 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:32:15 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:32:19 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: post_from_vault_task | Status: IN_PROGRESS | Details: Processing: 20260322_Eid_Mubarak_Twitter_Post.md
+2026-03-22 18:32:19 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 517 characters
+2026-03-22 18:32:19 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: post_to_facebook | Status: IN_PROGRESS | Details: Posting to Facebook (ID: vault_20260322_Eid_Mubarak_Twitter_Post)
+2026-03-22 18:32:19 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 18:32:26 - FacebookAutoPost - INFO - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required
+2026-03-22 18:34:29 - FacebookAutoPost - ERROR - [SKILL] FacebookAutoPostSkill | Operation: authenticate | Status: FAILED | Details: Login verification failed
+2026-03-22 18:42:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:42:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:42:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:42:33 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:42:33 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 18:42:33 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 18:42:39 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 18:49:27 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:49:27 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 18:49:27 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:49:27 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 18:49:27 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 18:49:27 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 18:49:28 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:05:46 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:05:53 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:17:41 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:17:45 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:18:23 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:18:27 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_README_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 12483 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260219_044706_Task_from_working_md.md | Source: VaultManager | Status: SUCCESS | Details: Read 694 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fb_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fb_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fcebook_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:32:14 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Twitter_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 540 characters
+2026-03-22 19:32:30 - VaultManager - INFO - [READ] Task: 20260322_Eid_Mubarak_Fb_Post.md | Source: VaultManager | Status: SUCCESS | Details: Read 678 characters
+2026-03-22 19:46:20 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Facebook notifications and messages
+2026-03-22 19:46:20 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Launching browser for Facebook
+2026-03-22 19:46:31 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: IN_PROGRESS | Details: Manual login required - please login in browser
+2026-03-22 19:48:31 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Facebook authenticated (new session)
+2026-03-22 19:48:40 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Facebook Message: Ayesh Sidd...
+2026-03-22 19:48:40 - FacebookWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_194840_Facebook_Facebook_Message__Ayesh_Sidd.md | Status: SUCCESS | Details: Created from Facebook
+2026-03-22 19:48:40 - FacebookWatcher - INFO - [LIFECYCLE] Task: 20260322_194840_Facebook_Facebook_Message__Ayesh_Sidd.md | Transition: Facebook -> Inbox | Status: SUCCESS
+2026-03-22 19:48:40 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_194840_Facebook_Facebook_Message__Ayesh_Sidd.md
+2026-03-22 19:48:40 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 1 tasks from Facebook
+2026-03-22 19:48:41 - FacebookWatcher - INFO - [SKILL] FacebookWatcherSkill | Operation: close | Status: SUCCESS | Details: Browser closed
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260320_044255_Gmail_Email__I_d_like_to_connect__.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260320_044255_Gmail_Email__I_d_like_to_connect__.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=medium, actions=6
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Email__I_d_like_to_connect__.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Email__I_d_like_to_connect__.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260320_044255_Gmail_Email__Shakeela_accepted_your_invitation__explore_.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260320_044255_Gmail_Email__Shakeela_accepted_your_invitation__explore_.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=medium, actions=6
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Email: Shakeela accepted your invitation, explore their network) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Email__Shakeela_accepted_your_invitation__explore_.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Email__Shakeela_accepted_your_invitation__explore_.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Email: Shakeela accepted your invitation, explore their network) | Status: SUCCESS | Details: Created 20260322_202654_Email__Shakeela_accepted_your_invitation__explore_.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260320_044255_Gmail_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260320_044255_Gmail_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=medium, actions=6
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Email: Sweet Eid Deals | Enjoy up to 30% off at Top Bakeries) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Email: Sweet Eid Deals | Enjoy up to 30% off at Top Bakeries) | Status: SUCCESS | Details: Created 20260322_202654_Email__Sweet_Eid_Deals___Enjoy_up_to_30__off_at_To.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_003101_Twitter_Twitter_DM__Unknown.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_003101_Twitter_Twitter_DM__Unknown.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=5
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM: Unknown) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_DM__Unknown.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_DM__Unknown.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM: Unknown) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_DM__Unknown.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_003649_Twitter_Twitter_DM__Unknown.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_003649_Twitter_Twitter_DM__Unknown.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=5
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM: Unknown) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_DM__Unknown.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_DM__Unknown.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM: Unknown) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_DM__Unknown.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_013942_Twitter_Twitter_DM.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_013942_Twitter_Twitter_DM.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=4
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_DM.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_DM.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_DM.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_014408_Twitter_Twitter_DM.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_014408_Twitter_Twitter_DM.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=4
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_DM.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_DM.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter DM) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_DM.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_015927_Twitter_Twitter_Notification.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_015927_Twitter_Twitter_Notification.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=4
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter Notification) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_Notification.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_Notification.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter Notification) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_Notification.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_165319_Twitter_Twitter_Notification.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_165319_Twitter_Twitter_Notification.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=4
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter Notification) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_Notification.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_Notification.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter Notification) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_Notification.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_173307_Twitter_Twitter_Notification.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_173307_Twitter_Twitter_Notification.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=4
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter Notification) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Twitter_Notification.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Twitter_Notification.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Twitter Notification) | Status: SUCCESS | Details: Created 20260322_202654_Twitter_Notification.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_194840_Facebook_Facebook_Message__Ayesh_Sidd.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(20260322_194840_Facebook_Facebook_Message__Ayesh_Sidd.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=5
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Facebook Message: Ayesh Sidd) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Facebook_Message__Ayesh_Sidd.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Facebook_Message__Ayesh_Sidd.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Facebook Message: Ayesh Sidd) | Status: SUCCESS | Details: Created 20260322_202654_Facebook_Message__Ayesh_Sidd.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(bitcoin_email_task.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(bitcoin_email_task.md) | Status: SUCCESS | Details: Extracted: priority=4, complexity=low, actions=5
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Bitcoin Investment Update Email) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Bitcoin_Investment_Update_Email.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Bitcoin_Investment_Update_Email.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Bitcoin Investment Update Email) | Status: SUCCESS | Details: Created 20260322_202654_Bitcoin_Investment_Update_Email.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(bitcoin_email_task_PLAN.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(bitcoin_email_task_PLAN.md) | Status: SUCCESS | Details: Extracted: priority=4, complexity=medium, actions=7
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Plan for: Bitcoin Investment Update Email) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_Plan_for__Bitcoin_Investment_Update_Email.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_Plan_for__Bitcoin_Investment_Update_Email.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(Plan for: Bitcoin Investment Update Email) | Status: SUCCESS | Details: Created 20260322_202654_Plan_for__Bitcoin_Investment_Update_Email.md
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(LinkedIn_Silver_Tier_Announcement.md) | Status: IN_PROGRESS | Details: Extracting task metadata
+2026-03-22 20:26:54 - TaskAnalyzerSkill - INFO - [SKILL] TaskAnalyzerSkill | Operation: analyze(LinkedIn_Silver_Tier_Announcement.md) | Status: SUCCESS | Details: Extracted: priority=3, complexity=low, actions=0
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(LinkedIn Post: Silver Tier Complete) | Status: IN_PROGRESS | Details: Writing analyzed task
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [CREATE] Task: 20260322_202654_LinkedIn_Post__Silver_Tier_Complete.md | Source: VaultWriterSkill | Status: SUCCESS | Details: Written to Needs_Action
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [LIFECYCLE] Task: 20260322_202654_LinkedIn_Post__Silver_Tier_Complete.md | Transition: Inbox -> Needs_Action | Status: SUCCESS
+2026-03-22 20:26:54 - VaultWriterSkill - INFO - [SKILL] VaultWriterSkill | Operation: write_to_needs_action(LinkedIn Post: Silver Tier Complete) | Status: SUCCESS | Details: Created 20260322_202654_LinkedIn_Post__Silver_Tier_Complete.md
+2026-03-22 20:51:49 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: load_processed_ids | Status: SUCCESS | Details: Loaded 54 processed IDs
+2026-03-22 20:51:56 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: authenticate | Status: SUCCESS | Details: Gmail API authenticated
+2026-03-22 20:51:56 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: watch | Status: IN_PROGRESS | Details: Checking Gmail inbox
+2026-03-22 20:51:58 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Deepika accepted your invitation, explore t...
+2026-03-22 20:51:58 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205158_Gmail_Email__Deepika_accepted_your_invitation__explore_t.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:51:58 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205158_Gmail_Email__Deepika_accepted_your_invitation__explore_t.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:51:58 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205158_Gmail_Email__Deepika_accepted_your_invitation__explore_t.md
+2026-03-22 20:51:58 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205158_Gmail_Email__I_d_like_to_connect__.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:51:58 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205158_Gmail_Email__I_d_like_to_connect__.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:51:58 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205158_Gmail_Email__I_d_like_to_connect__.md
+2026-03-22 20:51:59 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Inactive cluster was deleted...
+2026-03-22 20:51:59 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205159_Gmail_Email__Inactive_cluster_was_deleted.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:51:59 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205159_Gmail_Email__Inactive_cluster_was_deleted.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:51:59 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205159_Gmail_Email__Inactive_cluster_was_deleted.md
+2026-03-22 20:51:59 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: “user interface engineer”: SaaS - Freelance...
+2026-03-22 20:51:59 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205159_Gmail_Email___user_interface_engineer___SaaS___Freelance.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:51:59 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205159_Gmail_Email___user_interface_engineer___SaaS___Freelance.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:51:59 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205159_Gmail_Email___user_interface_engineer___SaaS___Freelance.md
+2026-03-22 20:51:59 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: “frontend developer”: Canonical - Web Front...
+2026-03-22 20:51:59 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205159_Gmail_Email___frontend_developer___Canonical___Web_Front.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:51:59 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205159_Gmail_Email___frontend_developer___Canonical___Web_Front.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:51:59 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205159_Gmail_Email___frontend_developer___Canonical___Web_Front.md
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: “software engineer”: Propstar Technologies ...
+2026-03-22 20:52:00 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205200_Gmail_Email___software_engineer___Propstar_Technologies_.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:52:00 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205200_Gmail_Email___software_engineer___Propstar_Technologies_.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205200_Gmail_Email___software_engineer___Propstar_Technologies_.md
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: New login to X from ChromeDesktop on Window...
+2026-03-22 20:52:00 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205200_Gmail_Email__New_login_to_X_from_ChromeDesktop_on_Window.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:52:00 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205200_Gmail_Email__New_login_to_X_from_ChromeDesktop_on_Window.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205200_Gmail_Email__New_login_to_X_from_ChromeDesktop_on_Window.md
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: New login to X from ChromeDesktop on Window...
+2026-03-22 20:52:00 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205200_Gmail_Email__New_login_to_X_from_ChromeDesktop_on_Window.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:52:00 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205200_Gmail_Email__New_login_to_X_from_ChromeDesktop_on_Window.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205200_Gmail_Email__New_login_to_X_from_ChromeDesktop_on_Window.md
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: Security alert...
+2026-03-22 20:52:00 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205200_Gmail_Email__Security_alert.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:52:00 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205200_Gmail_Email__Security_alert.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:52:00 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205200_Gmail_Email__Security_alert.md
+2026-03-22 20:52:01 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: IN_PROGRESS | Details: Creating task: Email: UBL netbanking: Transaction Alert for Accou...
+2026-03-22 20:52:01 - GmailWatcher - INFO - [WATCHER] Event: TASK_CREATED | File: 20260322_205201_Gmail_Email__UBL_netbanking__Transaction_Alert_for_Accou.md | Status: SUCCESS | Details: Created from Gmail
+2026-03-22 20:52:01 - GmailWatcher - INFO - [LIFECYCLE] Task: 20260322_205201_Gmail_Email__UBL_netbanking__Transaction_Alert_for_Accou.md | Transition: Gmail -> Inbox | Status: SUCCESS
+2026-03-22 20:52:01 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: create_task_in_inbox | Status: SUCCESS | Details: Created 20260322_205201_Gmail_Email__UBL_netbanking__Transaction_Alert_for_Accou.md
+2026-03-22 20:52:01 - GmailWatcher - INFO - [SKILL] GmailWatcherSkill | Operation: watch | Status: SUCCESS | Details: Created 10 tasks from 10 unread emails
+2026-03-22 21:00:20 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 21:00:20 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 21:00:20 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 21:00:20 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 21:00:20 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 11 tools
+2026-03-22 21:00:20 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 21:00:20 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 21:00:20 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 21:00:20 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 21:00:20 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 21:26:40 - PlanGeneratorSkill - INFO - [SKILL] PlanGeneratorSkill | Operation: __init__ | Status: SUCCESS | Details: Plan Generator Skill initialized
+2026-03-22 21:26:40 - PlanGeneratorSkill - INFO - [SKILL] PlanGeneratorSkill | Operation: generate_plan | Status: IN_PROGRESS | Details: Generating plan for: 20260322_202654_Facebook_Message__Ayesh_Sidd.md
+2026-03-22 21:26:40 - PlanGeneratorSkill - INFO - [SKILL] PlanGeneratorSkill | Operation: generate_plan | Status: SUCCESS | Details: Plan generated: 20260322_202654_Facebook_Message__Ayesh_Sidd_PLAN.md
+2026-03-22 21:28:22 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 21:28:22 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 21:28:22 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 21:28:22 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 21:28:22 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 11 tools
+2026-03-22 21:28:22 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 21:28:22 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 21:28:22 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 21:28:22 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 21:28:22 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 21:35:40 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 21:35:40 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 21:35:40 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 21:35:40 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 21:35:40 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 11 tools
+2026-03-22 21:35:40 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 21:35:40 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 21:35:40 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 21:35:40 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 21:35:40 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 21:35:40 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-22 21:35:40 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing MCP Server
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing module registry
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: email
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: social
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: register_module_class | Status: SUCCESS | Details: Registered module class: accounting
+2026-03-22 21:40:12 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Email module
+2026-03-22 21:40:12 - MCP.Email - INFO - [SKILL] Email | Operation: __init__ | Status: SUCCESS | Details: Email module initialized with 2 tools
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: email with 2 tools
+2026-03-22 21:40:12 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Social module
+2026-03-22 21:40:12 - MCP.Social - INFO - [SKILL] Social | Operation: __init__ | Status: SUCCESS | Details: Social module initialized with 11 tools
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: social with 11 tools
+2026-03-22 21:40:12 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Accounting module
+2026-03-22 21:40:12 - MCP.Accounting - INFO - [SKILL] Accounting | Operation: __init__ | Status: SUCCESS | Details: Accounting module initialized with 4 tools
+2026-03-22 21:40:12 - MCP.Registry - INFO - [SKILL] MCPModuleRegistry | Operation: load_module | Status: SUCCESS | Details: Loaded module: accounting with 4 tools
+2026-03-22 21:40:12 - MCP - INFO - [SKILL] initialize_default_modules | Operation: SUCCESS | Status: Loaded 3 modules
+2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
+2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
+2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
