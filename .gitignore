@@ -38,6 +38,8 @@ Bronze-tier/credentials/*.txt
 !Bronze-tier/credentials/README.md
 client_secret_*.json
 *_credentials.json
+odoo_config.json
+*_config.json
 
 # Session Files
 *_session.json
