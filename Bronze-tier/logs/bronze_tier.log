@@ -1136,3 +1136,158 @@ Call log:
 2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: __init__ | Status: SUCCESS | Details: MCP Server initialized with modular architecture (3 modules)
 2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: IN_PROGRESS | Details: Calling tool: send_notification
 2026-03-22 21:40:12 - MCPServer - INFO - [SKILL] MCPServer | Operation: call_tool | Status: SUCCESS | Details: send_notification: Notification sent: Test Notification
+2026-03-31 01:01:20 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 01:01:20 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 01:01:24 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: HTTPConnectionPool(host='localhost', port=8069): Max retries exceeded with url: /web/session/authenticate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8069): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-03-31 01:03:00 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 01:03:00 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 01:03:00 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 01:03:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 01:03:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 01:03:19 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 01:03:24 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: HTTPConnectionPool(host='localhost', port=8069): Max retries exceeded with url: /web/session/authenticate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8069): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-03-31 01:03:43 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 01:03:43 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 01:03:43 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 01:03:48 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: HTTPConnectionPool(host='localhost', port=8069): Max retries exceeded with url: /web/session/authenticate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8069): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-03-31 01:03:58 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 01:03:58 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 01:03:58 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 01:04:02 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: HTTPConnectionPool(host='localhost', port=8069): Max retries exceeded with url: /web/session/authenticate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8069): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-03-31 01:05:11 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 01:05:15 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: HTTPConnectionPool(host='localhost', port=8069): Max retries exceeded with url: /web/session/authenticate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8069): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-03-31 15:46:27 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 15:46:27 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 15:46:27 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 15:48:10 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 15:48:10 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 15:48:10 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 15:54:29 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 15:54:29 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 15:54:29 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 15:55:00 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 15:55:00 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 15:55:00 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 15:55:03 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 15:55:03 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 15:55:03 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 15:55:03 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 15:55:11 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 15:55:11 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 15:55:11 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 15:55:11 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 15:58:28 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 15:58:28 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 15:58:28 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 15:58:28 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 16:12:32 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:12:32 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:12:32 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:12:32 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 16:22:35 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:22:35 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:22:35 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:22:35 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:22:35 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: authenticate | Status: FAILED | Details: Authentication failed - invalid credentials
+2026-03-31 16:40:24 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:40:24 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:40:24 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:40:24 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:40:25 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 16:40:25 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:40:25 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:40:25 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.move.search_read: Odoo API Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-03-31 16:40:50 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:40:50 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:40:50 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:40:50 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:40:51 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 16:40:51 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:40:51 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:40:51 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.move.search_read: Expecting value: line 1 column 1 (char 0)
+2026-03-31 16:41:19 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:41:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:41:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:41:19 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:41:19 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 16:41:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:41:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:41:19 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.move.search_read: Odoo API Error: Invalid field 'amount_due' on 'account.move'
+2026-03-31 16:42:56 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:42:56 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:42:56 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:42:56 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:42:56 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 16:42:56 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:42:56 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:43:38 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:43:38 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:43:38 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:51:44 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 16:51:44 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:51:44 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:51:48 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:51:48 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:51:48 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 16:51:49 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 16:52:04 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:52:04 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 16:52:41 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 16:52:41 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:29:30 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:29:30 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:29:31 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: IN_PROGRESS | Details: Creating invoice for partner 45
+2026-03-31 17:29:31 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.move.create: Odoo API Error: The operation cannot be completed: Missing required account on accountable line.
+2026-03-31 17:29:31 - OdooAccounting - ERROR - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: FAILED | Details: Odoo API Error: The operation cannot be completed: Missing required account on accountable line.
+2026-03-31 17:30:05 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: hr.expense.create: Odoo API Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-03-31 17:30:52 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 17:30:52 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:30:52 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:31:00 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:31:00 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:31:00 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 17:31:00 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 17:31:00 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: IN_PROGRESS | Details: Creating invoice for partner 46
+2026-03-31 17:31:00 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.move.create: Odoo API Error: The operation cannot be completed: Missing required account on accountable line.
+2026-03-31 17:31:00 - OdooAccounting - ERROR - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: FAILED | Details: Odoo API Error: The operation cannot be completed: Missing required account on accountable line.
+2026-03-31 17:31:05 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:31:05 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:31:05 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 17:31:06 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 17:31:11 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:31:11 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:31:20 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:31:20 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:42:59 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 17:42:59 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:42:59 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:43:03 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:43:03 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:43:03 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 17:43:03 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 17:43:07 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:43:07 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:43:10 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:43:10 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:43:10 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: IN_PROGRESS | Details: Creating invoice for partner 47
+2026-03-31 17:43:10 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.move.create: Odoo API Error: The operation cannot be completed: Missing required account on accountable line.
+2026-03-31 17:43:10 - OdooAccounting - ERROR - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: FAILED | Details: Odoo API Error: The operation cannot be completed: Missing required account on accountable line.
+2026-03-31 17:53:15 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 17:53:15 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 17:53:15 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 17:53:15 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: IN_PROGRESS | Details: Creating invoice for partner 47
+2026-03-31 17:53:15 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 17:53:16 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 17:53:16 - OdooConnector - ERROR - [SKILL] OdooConnector | Operation: execute | Status: FAILED | Details: account.account.search_read: Odoo API Error: Invalid field account.account.deprecated in condition ('deprecated', '=', False)
+2026-03-31 17:53:16 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: SUCCESS | Details: Invoice created: 68
+2026-03-31 18:02:19 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: _load_config | Status: SUCCESS | Details: Loaded config for http://localhost:8069
+2026-03-31 18:02:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 18:02:19 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 18:02:22 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 18:02:22 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools
+2026-03-31 18:02:22 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: IN_PROGRESS | Details: Authenticating to http://localhost:8069
+2026-03-31 18:02:22 - OdooConnector - INFO - [SKILL] OdooConnector | Operation: authenticate | Status: SUCCESS | Details: Authenticated as UID: 2
+2026-03-31 18:02:22 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: IN_PROGRESS | Details: Creating invoice for partner 48
+2026-03-31 18:02:22 - OdooAccounting - INFO - [SKILL] OdooAccounting | Operation: create_customer_invoice | Status: SUCCESS | Details: Invoice created: 69
+2026-03-31 18:02:34 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: IN_PROGRESS | Details: Initializing Odoo module
+2026-03-31 18:02:34 - MCP.Odoo - INFO - [SKILL] Odoo | Operation: __init__ | Status: SUCCESS | Details: Odoo module initialized with 11 tools

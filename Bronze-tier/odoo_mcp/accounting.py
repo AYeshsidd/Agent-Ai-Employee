@@ -50,16 +50,30 @@ class OdooAccounting:
                 "IN_PROGRESS", f"Creating invoice for partner {partner_id}"
             )
             
+            # Get default income account if not specified
+            # In Odoo 19, we need to specify account_id on invoice lines
+            income_account = self._get_income_account()
+            
             # Prepare invoice lines
             lines = []
             for line in invoice_lines:
-                lines.append((0, 0, {
-                    'product_id': line.get('product_id'),
+                line_data = {
                     'name': line.get('name', 'Service'),
                     'quantity': line.get('quantity', 1),
                     'price_unit': line.get('price_unit', 0),
-                    'account_id': line.get('account_id')
-                }))
+                }
+                
+                # Add account if provided or use default
+                if line.get('account_id'):
+                    line_data['account_id'] = line['account_id']
+                elif income_account:
+                    line_data['account_id'] = income_account
+                
+                # Add product if provided
+                if line.get('product_id'):
+                    line_data['product_id'] = line['product_id']
+                
+                lines.append((0, 0, line_data))
             
             invoice_data = {
                 'move_type': 'out_invoice',
@@ -97,16 +111,50 @@ class OdooAccounting:
                 'message': str(e)
             }
     
+    def _get_income_account(self) -> int:
+        """Get default income account for invoice lines"""
+        try:
+            # Search for income account (Odoo 19 uses account_type)
+            accounts = self.odoo.search_read('account.account', [
+                ('account_type', '=', 'income')
+            ], ['id'], limit=1)
+            
+            if accounts:
+                return accounts[0]['id']
+            
+            # Fallback: search for revenue accounts
+            accounts = self.odoo.search_read('account.account', [
+                ('internal_group', '=', 'income')
+            ], ['id'], limit=1)
+            
+            if accounts:
+                return accounts[0]['id']
+            
+            # Last fallback: first account found
+            accounts = self.odoo.search_read('account.account', [], ['id'], limit=1)
+            return accounts[0]['id'] if accounts else None
+            
+        except:
+            return None
+    
     def get_invoice(self, invoice_id: int) -> Dict:
         """Get invoice details"""
         try:
             invoices = self.odoo.read('account.move', [invoice_id], 
                                      ['name', 'partner_id', 'amount_total', 
-                                      'amount_due', 'state', 'invoice_date'])
+                                      'amount_residual', 'state', 'invoice_date'])
             if invoices:
+                inv = invoices[0]
                 return {
                     'status': 'success',
-                    'invoice': invoices[0]
+                    'invoice': {
+                        'name': inv.get('name'),
+                        'partner_id': inv.get('partner_id'),
+                        'amount_total': inv.get('amount_total'),
+                        'amount_due': inv.get('amount_residual'),  # amount_residual = amount due
+                        'state': inv.get('state'),
+                        'invoice_date': inv.get('invoice_date')
+                    }
                 }
             return {
                 'status': 'failed',
@@ -127,10 +175,18 @@ class OdooAccounting:
             if state:
                 domain.append(('state', '=', state))
             
+            # Filter for customer invoices only
+            domain.append(('move_type', 'in', ['out_invoice', 'out_refund']))
+            
             invoices = self.odoo.search_read('account.move', domain, 
                                             ['name', 'partner_id', 'amount_total', 
-                                             'amount_due', 'state', 'invoice_date'],
+                                             'amount_residual', 'state', 'invoice_date'],
                                             limit=limit)
+            
+            # Format for consistency
+            for inv in invoices:
+                inv['amount_due'] = inv.pop('amount_residual', 0)
+            
             return {
                 'status': 'success',
                 'invoices': invoices
@@ -361,20 +417,20 @@ class OdooAccounting:
     def get_account_summary(self) -> Dict:
         """Get basic accounting summary"""
         try:
-            # Get total receivables
+            # Get total receivables (customer invoices)
             receivables = self.odoo.search_read('account.move', 
                                                [('move_type', '=', 'out_invoice'), 
                                                 ('state', '=', 'posted')],
-                                               ['amount_total', 'amount_due'])
+                                               ['amount_total', 'amount_residual'])
             
-            # Get total payables
+            # Get total payables (vendor bills)
             payables = self.odoo.search_read('account.move',
                                             [('move_type', '=', 'in_invoice'),
                                              ('state', '=', 'posted')],
-                                            ['amount_total', 'amount_due'])
+                                            ['amount_total', 'amount_residual'])
             
-            total_receivable = sum(inv.get('amount_due', 0) for inv in receivables)
-            total_payable = sum(bill.get('amount_due', 0) for bill in payables)
+            total_receivable = sum(inv.get('amount_residual', 0) for inv in receivables)
+            total_payable = sum(bill.get('amount_residual', 0) for bill in payables)
             
             return {
                 'status': 'success',

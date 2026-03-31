@@ -57,7 +57,7 @@ class OdooConnector:
     
     def authenticate(self) -> bool:
         """
-        Authenticate with Odoo using JSON-RPC
+        Authenticate with Odoo using JSON-RPC (Odoo 19+)
         
         Returns:
             True if authentication successful
@@ -68,19 +68,15 @@ class OdooConnector:
                 "IN_PROGRESS", f"Authenticating to {self.url}"
             )
             
-            # JSON-RPC authentication call
+            # Odoo 19+ authentication format
             payload = {
                 "jsonrpc": "2.0",
                 "method": "call",
                 "params": {
-                    "service": "common",
-                    "method": "authenticate",
-                    "args": [
-                        self.db,
-                        self.username,
-                        self.password,
-                        {}
-                    ]
+                    "db": self.db,
+                    "login": self.username,
+                    "password": self.password,
+                    "context": {}
                 },
                 "id": 1
             }
@@ -88,7 +84,8 @@ class OdooConnector:
             response = self.session.post(
                 f"{self.url}/web/session/authenticate",
                 json=payload,
-                headers={'Content-Type': 'application/json'}
+                headers={'Content-Type': 'application/json'},
+                timeout=10
             )
             
             result = response.json()
@@ -133,32 +130,31 @@ class OdooConnector:
                 raise Exception("Not authenticated with Odoo")
         
         try:
+            # Use session-based call (no need to re-authenticate)
             payload = {
                 "jsonrpc": "2.0",
                 "method": "call",
                 "params": {
-                    "service": "object",
-                    "method": "execute_kw",
-                    "args": [
-                        self.db,
-                        self.uid,
-                        self.password,
-                        model,
-                        method,
-                        args or [],
-                        kwargs or {}
-                    ]
+                    "model": model,
+                    "method": method,
+                    "args": args or [],
+                    "kwargs": kwargs or {}
                 },
-                "id": 2
+                "id": 3
             }
             
             response = self.session.post(
                 f"{self.url}/web/dataset/call_kw",
                 json=payload,
-                headers={'Content-Type': 'application/json'}
+                headers={'Content-Type': 'application/json'},
+                timeout=30
             )
             
-            result = response.json()
+            # Check if response is valid JSON
+            try:
+                result = response.json()
+            except:
+                raise Exception(f"Invalid response from Odoo: {response.text[:200]}")
             
             if 'error' in result:
                 error_msg = result['error'].get('data', {}).get('message', str(result['error']))
