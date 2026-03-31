@@ -146,6 +146,16 @@ class TaskAnalyzer:
             if score > 0:
                 scores[task_type] = score
         
+        # If email keyword found and no strong invoice indicators, prioritize email
+        if 'email' in content_lower or 'send email' in content_lower:
+            # Check for strong invoice indicators
+            strong_invoice_indicators = ['partner id', 'invoice amount', 'bill to', 'billing address']
+            has_strong_invoice = any(indicator in content_lower for indicator in strong_invoice_indicators)
+            
+            if not has_strong_invoice:
+                # This is an email task, not invoice
+                return TaskType.EMAIL_SEND
+        
         if scores:
             # Return highest scoring type
             return max(scores, key=scores.get)
@@ -166,7 +176,11 @@ class TaskAnalyzer:
         actions = []
         content_lower = content.lower()
         
-        # Map task types to default actions
+        # For email tasks, ONLY use email actions
+        if task_type == TaskType.EMAIL_SEND:
+            return [TaskAction.SEND_EMAIL, TaskAction.MOVE_TO_DONE]
+        
+        # Map task types to default actions for other types
         type_actions = {
             TaskType.SOCIAL_TWITTER: [TaskAction.POST_TWITTER, TaskAction.MOVE_TO_DONE],
             TaskType.SOCIAL_FACEBOOK: [TaskAction.POST_FACEBOOK, TaskAction.MOVE_TO_DONE],
@@ -174,7 +188,6 @@ class TaskAnalyzer:
             TaskType.ACCOUNTING_INVOICE: [TaskAction.CREATE_INVOICE, TaskAction.MOVE_TO_DONE],
             TaskType.ACCOUNTING_PAYMENT: [TaskAction.REGISTER_PAYMENT, TaskAction.MOVE_TO_DONE],
             TaskType.ACCOUNTING_EXPENSE: [TaskAction.CREATE_EXPENSE, TaskAction.MOVE_TO_DONE],
-            TaskType.EMAIL_SEND: [TaskAction.SEND_EMAIL, TaskAction.MOVE_TO_DONE],
             TaskType.VAULT_MOVE: [TaskAction.MOVE_TO_DONE],
         }
         
@@ -218,25 +231,67 @@ class TaskAnalyzer:
         if task_type in [TaskType.ACCOUNTING_INVOICE, TaskType.ACCOUNTING_PAYMENT,
                         TaskType.ACCOUNTING_EXPENSE]:
             if 'partner_id' in metadata:
-                params['partner_id'] = int(metadata['partner_id'])
+                try:
+                    params['partner_id'] = int(metadata['partner_id'])
+                except:
+                    pass
             if 'amount' in metadata:
                 try:
                     params['amount'] = float(metadata['amount'].replace(',', ''))
                 except:
                     pass
             if 'invoice_id' in metadata:
-                params['invoice_id'] = int(metadata['invoice_id'])
+                try:
+                    params['invoice_id'] = int(metadata['invoice_id'])
+                except:
+                    pass
         
-        # Email parameters
+        # Email parameters - improved extraction
         if task_type == TaskType.EMAIL_SEND:
-            # Extract email fields
-            email_match = re.search(r'to:\s*(\S+@\S+)', content, re.IGNORECASE)
-            if email_match:
-                params['to'] = email_match.group(1)
+            # Try multiple patterns for recipient email
+            email_patterns = [
+                r'\*\*To\*\*:\s*(\S+@\S+)',
+                r'To:\s*(\S+@\S+)',
+                r'recipient_email:\s*(\S+@\S+)',
+                r'\*\*Recipient\*\*:\s*(\S+@\S+)',
+                r'recipient:\s*(\S+@\S+)',
+            ]
             
-            subject_match = re.search(r'subject:\s*(.+?)(?:\n|$)', content, re.IGNORECASE)
-            if subject_match:
-                params['subject'] = subject_match.group(1)
+            for pattern in email_patterns:
+                email_match = re.search(pattern, content, re.IGNORECASE)
+                if email_match:
+                    params['to'] = email_match.group(1)
+                    break
+            
+            # Try multiple patterns for subject
+            subject_patterns = [
+                r'\*\*Subject\*\*:\s*(.+?)(?:\n|$)',
+                r'Subject:\s*(.+?)(?:\n|$)',
+            ]
+            
+            for pattern in subject_patterns:
+                subject_match = re.search(pattern, content, re.IGNORECASE)
+                if subject_match:
+                    params['subject'] = subject_match.group(1).strip().strip('"\'')
+                    break
+            
+            # Try multiple patterns for body/message
+            body_patterns = [
+                r'\*\*Message\*\*:\s*(.+?)(?:\n|$)',
+                r'\*\*Body\*\*:\s*(.+?)(?:\n|$)',
+                r'Body:\s*(.+?)(?:\n|$)',
+                r'Message:\s*(.+?)(?:\n|$)',
+            ]
+            
+            for pattern in body_patterns:
+                body_match = re.search(pattern, content, re.IGNORECASE)
+                if body_match:
+                    params['body'] = body_match.group(1).strip().strip('"\'')
+                    break
+            
+            # Fallback to description
+            if 'body' not in params and 'description' in metadata:
+                params['body'] = metadata['description']
         
         return params
     
