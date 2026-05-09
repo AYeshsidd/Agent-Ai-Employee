@@ -33,43 +33,44 @@ env/
 *~
 
 # Credentials and Sensitive Data
-Bronze-tier/credentials/*.json
-Bronze-tier/credentials/*.txt
-!Bronze-tier/credentials/README.md
+Personal-AI-Employee/credentials/*.json
+Personal-AI-Employee/credentials/*.txt
+!Personal-AI-Employee/credentials/README.md
 client_secret_*.json
 *_credentials.json
 odoo_config.json
 *_config.json
+twitter_profile
 
 # Session Files
 *_session.json
 *_token.json
 
 # Browser Profiles (Twitter/X, etc.)
-Bronze-tier/credentials/twitter_profile/
-Bronze-tier/credentials/facebook_profile/
-Bronze-tier/credentials/linkedin_profile/
+Personal-AI-Employee/credentials/twitter_profile/
+Personal-AI-Employee/credentials/facebook_profile/
+Personal-AI-Employee/credentials/linkedin_profile/
 
 # Logs (optional - uncomment to exclude logs from git)
- Bronze-tier/logs/*.log
- Bronze-tier/*.log
+ Personal-AI-Employee/logs/*.log
+ Personal-AI-Employee/*.log
 
 # Processed IDs tracking
-Bronze-tier/logs/*_processed.txt
+Personal-AI-Employee/logs/*_processed.txt
 
 # Runtime folders - ignore all content but keep folder structure
-Bronze-tier/Vault/Inbox/*
-!Bronze-tier/Vault/Inbox/.gitkeep
- Bronze-tier/Vault/Needs_Action/*
- !Bronze-tier/Vault/Needs_Action/.gitkeep
-# Bronze-tier/Vault/Done/*
-!Bronze-tier/Vault/Done/.gitkeep
+Personal-AI-Employee/Vault/Inbox/*
+!Personal-AI-Employee/Vault/Inbox/.gitkeep
+ Personal-AI-Employee/Vault/Needs_Action/*
+ !Personal-AI-Employee/Vault/Needs_Action/.gitkeep
+# Personal-AI-Employee/Vault/Done/*
+!Personal-AI-Employee/Vault/Done/.gitkeep
 
 # Log files
-Bronze-tier/logs/*.log
-Bronze-tier/logs/*.txt
-Bronze-tier/logs/*.json
-Bronze-tier/*.log
+Personal-AI-Employee/logs/*.log
+Personal-AI-Employee/logs/*.txt
+Personal-AI-Employee/logs/*.json
+Personal-AI-Employee/*.log
 
 # OS
 .DS_Store
