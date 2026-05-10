@@ -2,7 +2,13 @@
 """Test Twitter/Facebook Integration"""
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path.cwd()))
+
+# Robust project root detection
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 
 print('=== Testing Twitter/Facebook Integration ===\n')
 

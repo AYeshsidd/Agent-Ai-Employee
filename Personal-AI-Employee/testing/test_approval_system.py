@@ -2,9 +2,16 @@
 """Test Approval System - Silver Tier Part 5"""
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent))
 
-from approval_system import ApprovalManager, ApprovalDashboard
+# Robust project root detection
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
+
+from approval_system.approval_manager import ApprovalManager
+from approval_system.approval_dashboard import ApprovalDashboard
 import time
 
 

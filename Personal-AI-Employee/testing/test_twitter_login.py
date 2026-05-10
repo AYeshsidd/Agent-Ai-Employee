@@ -12,7 +12,13 @@ IMPORTANT:
 """
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent))
+
+# Robust project root detection
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 
 from skills.watcher_skills.twitter_watcher_skill import TwitterWatcherSkill
 from vault_manager import VaultManager

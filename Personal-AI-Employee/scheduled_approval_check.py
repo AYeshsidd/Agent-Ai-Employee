@@ -7,15 +7,18 @@ from pathlib import Path
 import time
 import json
 
-# Set working directory
-BASE_DIR = Path(__file__).parent
-sys.path.insert(0, str(BASE_DIR))
+# Robust project root detection
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 
 from bronze_logger import BronzeLogger
 from approval_system.approval_manager import ApprovalManager
 
 # Lock file to prevent overlapping runs
-LOCK_FILE = BASE_DIR / "logs" / "approval_check.lock"
+LOCK_FILE = root / "logs" / "approval_check.lock"
 
 
 def acquire_lock() -> bool:

@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """Test Part 3: Agent Skills Verification"""
+import sys
 from pathlib import Path
+
+# Robust project root detection
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
+
 from vault_manager import VaultManager
 from skills import ReadVaultSkill, WriteVaultSkill, TaskAnalyzerSkill, VaultWriterSkill
 

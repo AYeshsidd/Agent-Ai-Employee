@@ -6,16 +6,19 @@ import sys
 from pathlib import Path
 import time
 
-# Set working directory
-BASE_DIR = Path(__file__).parent
-sys.path.insert(0, str(BASE_DIR))
+# Robust project root detection
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 
 from bronze_logger import BronzeLogger
 from skills.linkedin_auto_post_skill import LinkedInAutoPostSkill
 from vault_manager import VaultManager
 
 # Lock file to prevent overlapping runs
-LOCK_FILE = BASE_DIR / "logs" / "linkedin_auto_post.lock"
+LOCK_FILE = root / "logs" / "linkedin_auto_post.lock"
 
 
 def acquire_lock() -> bool:

@@ -6,10 +6,15 @@ import sys
 from pathlib import Path
 import time
 
-# Set working directory
-BASE_DIR = Path(__file__).parent
-sys.path.insert(0, str(BASE_DIR))
+# Ensure project root is in sys.path
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 
+# Local directory for lock files
+BASE_DIR = Path(__file__).parent
 from bronze_logger import BronzeLogger
 from skills.watcher_skills.gmail_watcher_skill import GmailWatcherSkill
 

@@ -4,7 +4,13 @@ import time
 import signal
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent))
+
+# Ensure project root is in sys.path
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 
 from vault_manager import VaultManager
 from bronze_logger import BronzeLogger

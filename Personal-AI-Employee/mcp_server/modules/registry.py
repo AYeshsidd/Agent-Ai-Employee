@@ -5,7 +5,12 @@ from typing import Dict, Any, Optional, List, Type
 import sys
 import importlib
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+# Ensure project root is in sys.path
+root = Path(__file__).resolve().parent
+while root.name != "Personal-AI-Employee" and root.parent != root:
+    root = root.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
 from mcp_server.modules.base_module import MCPModule
 from bronze_logger import BronzeLogger
 from config import Config
